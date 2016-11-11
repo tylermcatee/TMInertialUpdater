@@ -13,6 +13,7 @@
 		8DAAFCE41DD687DB00062B93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DAAFCE21DD687DB00062B93 /* Main.storyboard */; };
 		8DAAFCE61DD687DB00062B93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DAAFCE51DD687DB00062B93 /* Assets.xcassets */; };
 		8DAAFCE91DD687DB00062B93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DAAFCE71DD687DB00062B93 /* LaunchScreen.storyboard */; };
+		8DAAFCF21DD687E700062B93 /* TMInertialUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAAFCF11DD687E700062B93 /* TMInertialUpdater.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		8DAAFCE51DD687DB00062B93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DAAFCE81DD687DB00062B93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DAAFCEA1DD687DB00062B93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DAAFCF01DD687E700062B93 /* TMInertialUpdater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMInertialUpdater.h; sourceTree = "<group>"; };
+		8DAAFCF11DD687E700062B93 /* TMInertialUpdater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMInertialUpdater.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				8DAAFCDD1DD687DB00062B93 /* AppDelegate.m */,
 				8DAAFCDF1DD687DB00062B93 /* ViewController.h */,
 				8DAAFCE01DD687DB00062B93 /* ViewController.m */,
+				8DAAFCF01DD687E700062B93 /* TMInertialUpdater.h */,
+				8DAAFCF11DD687E700062B93 /* TMInertialUpdater.m */,
 				8DAAFCE21DD687DB00062B93 /* Main.storyboard */,
 				8DAAFCE51DD687DB00062B93 /* Assets.xcassets */,
 				8DAAFCE71DD687DB00062B93 /* LaunchScreen.storyboard */,
@@ -110,6 +115,7 @@
 				TargetAttributes = {
 					8DAAFCD51DD687DB00062B93 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = DP37BMQBU9;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -150,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DAAFCF21DD687E700062B93 /* TMInertialUpdater.m in Sources */,
 				8DAAFCE11DD687DB00062B93 /* ViewController.m in Sources */,
 				8DAAFCDE1DD687DB00062B93 /* AppDelegate.m in Sources */,
 				8DAAFCDB1DD687DB00062B93 /* main.m in Sources */,
@@ -270,6 +277,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DP37BMQBU9;
 				INFOPLIST_FILE = TMInertialUpdater/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mcatee.TMInertialUpdater;
@@ -281,6 +289,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DP37BMQBU9;
 				INFOPLIST_FILE = TMInertialUpdater/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mcatee.TMInertialUpdater;
